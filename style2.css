@@ -39,7 +39,7 @@ top: 0px;
 }
 
 @keyframes letsgo {
- 50%{transform: scale(1,1);}
+ 50%{transform: scale(1.5,1.5);}
 }
 }
 
