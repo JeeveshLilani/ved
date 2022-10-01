@@ -1,0 +1,29 @@
+html{
+  background-image: url(bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.heading{
+  color: #ed3528 ;
+  font-family: sans-serif;
+  font-size: 75px;
+  text-shadow: 0px 4px 5px grey;
+  border-style: outset;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+button{
+  color: aliceblue;
+  font-family: sans-serif;
+  font-size: 75px;
+  background-color: #ed3528;
+opacity: 2;
+}
+
+.details{
+  color: white;
+  font-size: 25px;
+}

@@ -1,0 +1,54 @@
+html{
+  background-image: url(bg.jpeg);
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+
+
+.enlarge1{
+  animation: wecandoit ;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes wecandoit {
+  50%{transform: rotateZ(360deg);}
+}
+
+.float{
+position: sticky;
+top: 0px;
+}
+
+.last{
+  color: gold;
+  font-size: 35px;
+  opacity: 2;
+  font-family:sans-serif;
+  background-color: #ad7149;
+  border-style: outset;
+  border-color: silver;
+}
+
+.gif{
+  transform: scale(0.7,0.7);
+  animation: letsgo ;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes letsgo {
+ 50%{transform: scale(1,1);}
+}
+}
+
+.thing{
+  color: gold;
+  font-family: sans-serif;
+  font-size: 35px;
+  opacity: 2.3;
+  border-style: outset;
+  border-color: silver;
+  border-radius: 2px;
+}
